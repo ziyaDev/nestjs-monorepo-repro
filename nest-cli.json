@@ -4,9 +4,9 @@
   "sourceRoot": "apps/api/src",
   "compilerOptions": {
     "deleteOutDir": true,
-    "webpack": false,
+    "webpack": true,
     "typeCheck": false,
-    "builder": "swc",
+    "builder": "webpack",
     "tsConfigPath": "apps/api/tsconfig.build.json"
   },
   "monorepo": true,
