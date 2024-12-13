@@ -1,0 +1,36 @@
+{
+  "extends": "../../tsconfig.base.json",
+  "compilerOptions": {
+    "importHelpers": true,
+    "strictPropertyInitialization": false,
+    "noImplicitOverride": true,
+    "noImplicitReturns": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "target": "ES6",
+    "module": "CommonJS",
+    "removeComments": true,
+    "skipLibCheck": true,
+    "strictNullChecks": true,
+    "noImplicitAny": true,
+    "noFallthroughCasesInSwitch": true,
+    "moduleResolution": "Node",
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "declaration": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "lib": ["ES2022"],
+    "sourceMap": true,
+    "incremental": true,
+    "strictBindCallApply": false
+  },
+  "exclude": [
+    "node_modules",
+    "test",
+    "dist",
+    "src/**/*.spec.ts",
+    "src/**/*.test.ts"
+  ]
+}
